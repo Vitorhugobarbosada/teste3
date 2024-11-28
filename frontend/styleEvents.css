@@ -1,0 +1,147 @@
+body{
+    display:flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+}
+.barralateral{
+    width: 200px;
+    height: auto;
+    background-color:#18171f;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+img{
+    padding:15px;
+    padding-left:0px;
+    height: 200px;
+    width: 220px;
+    
+}
+.texto{
+    padding:20px;
+    margin-left:20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#ed1c24;
+    font-weight:bold;
+    
+    
+}
+a:hover{
+    transition: .3s;
+    font-size:108%;
+}
+
+
+.menu{
+    background-color: white;  
+}
+.botao{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #ed1c24;
+    color: #ffffff;
+    flex-direction: column;
+    border-radius: 6px;
+    border: none;
+    padding:10px;
+    font-weight:bold;
+}
+
+.barracima{
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    
+}
+.container{
+    
+    align-items: center;
+    
+    
+}
+.carteira{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+form{
+    padding-right:200px;
+    
+}
+.profile{
+    border:2px solid #ed1c24;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #18171f;
+    color:white;
+    border-radius:5px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile:hover{
+    transform: scale(1.05);
+    background-color: #ed1c24;
+
+}
+.cash{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding:10px;
+    border:2px solid #ed1c24;
+    border-radius: 6px;
+    background-color: #18171f;;
+    
+}
+
+.profile{
+    border:2px solid #ed1c24; ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #18171f;
+    color:white;
+    border-radius:5px;
+    width: 40px;
+    height: 40px;
+}
+
+.profile:hover{
+    transform: scale(1.05);
+    background-color: #ed1c24;
+
+}
+
+.newEventBox{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #18171f;
+    color:white;
+    border-radius:5px;
+    width: 40px;
+    height: 40px;
+}
+
+.newEventBox:hover{
+    transform: scale(1.05);
+    background-color: #ed1c24;
+
+}
+.botaoapostar{
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    background-color: #ed1c24;
+    color:white;
+}
+.aapostar{
+    text-decoration: none;
+    color:white;
+}
+.botaoapostar:hover{
+    transform: scale(1.03);
+    transition: .2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
